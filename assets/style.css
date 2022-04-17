@@ -1,0 +1,537 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+.heading{
+    background-image: url("https://ss-images.saostar.vn/pc/1648200326004/saostar-q2pc3v22apxhsypb.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom center;
+    width: 100%;
+    height: 150vh;
+    position: relative;
+    margin-top: 6rem
+
+}
+
+.container{
+    margin-left: 15px;
+    margin-right: 15px;
+}
+.btn:hover {
+    background-color: #fff;
+    color: black;
+}
+.view_add:hover {
+    background-color: #7e8a0f;
+    color: black;
+}
+.header{
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 10000;
+   background-color: #333;
+   height: 4rem;
+}
+.img_logo{
+    width: 15%;
+    height: auto;
+}
+.logo{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+.header_item{
+    position: relative;
+}
+.item_list.active a {
+    color :#d3f1d7;
+    opacity: 1;
+}
+.item{
+}
+
+.item_list{
+    display: inline-block;
+    padding: 10px 0px;
+    margin: 0px 10px;
+    list-style-type: none;
+}
+.item_list a{
+    color: #fff;
+}
+.line{
+    position: absolute;
+    left: 0;
+    top: 42px;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    border-radius: 15px;
+    background-color: #d3f1d7;
+    transition: all 0.2s ease;
+}
+
+
+
+.header_content {
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.next {
+    position: absolute;
+    color:rgb(196, 189, 189);
+    font-size: 30px;
+    cursor: pointer;
+    right: 40px;
+    top:100px;
+    background-color: rgba(45, 35, 35, 0.5);
+    padding: 5px 13px;
+}
+.prev {
+    background-color: rgba(45, 35, 35, 0.5);  
+    padding: 5px 13px;
+    position: absolute;
+    color:rgb(196, 189, 189);
+    font-size: 30px;
+    cursor: pointer;
+    left: 40px;
+    top:100px;
+}
+.slogan{
+    font-size: 50px;
+    color: #fff;
+    margin-bottom: 30px;
+    line-height: 70px;
+}
+.btn{
+    border-radius: 5px;
+    padding: 10px 25px;
+    border: solid 2px #fff;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+
+}
+.btn_event{
+  
+}
+.btn_member{
+    
+}
+
+/* header_intro */
+.nav {
+    padding: 40px;
+    background-color: black;
+}
+.nav_introduction{
+    display: flex; 
+    justify-content: space-between;
+    color: #fff;
+}
+.btn_intro {
+    padding: 12px 20px;
+    background-color: transparent;
+    color: #fff;
+    border: solid 2px #fff;
+    cursor: pointer;
+}
+.Main_course{
+    width: 100%;
+    background-color: #fff;
+    padding: 60px 0px;
+}
+.course{
+    display: flex;
+}
+.course_img{
+    width: 50%;
+    margin-left: 40px;
+}
+.container h3 {
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+.course_img img {
+    width: 590px;
+    height: 385px;
+}
+.course_content{
+    margin-left: 70px;
+    margin-right: 40px;
+}
+.course_content h4 {
+    font-size: 17px;
+    color: rgb(61, 61, 61);
+    font-weight: 300;
+}
+.course_content span {
+    margin-top: 26px;
+    display: block;
+    color: rgb(137, 132, 132);
+    margin-bottom: 26px;
+}
+.view_add{
+    padding: 14px 32px;
+    border-radius: 5px;
+    border: solid 3 px #5edc6f;
+    background-color: #fff;
+    cursor: pointer;
+}
+
+
+.educate{
+    margin-top: 30px;
+    padding: 80px 0px;
+    background-image: url("https://golfcity.com.vn/wp-content/uploads/2020/12/san-golf-nha-trang-vinpearl.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+}
+.educate_content {
+    line-height: 20px;
+    width: 100%;
+    align-items: center;
+}
+.educate_content span {
+    display: block;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: rgb(242, 229, 229);
+}
+.btn_educate_about {
+    padding: 12px 22px;
+    border: solid 3px #fff;
+    background-color: transparent;
+    color: #fff;
+}
+
+
+.packages1{
+    display: block;
+}
+.packages{
+    margin-top: 100px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 100px;
+}
+.packages_educate_sol{
+    display: block;
+    text-align: center;
+    align-items: center;
+    font-size: 40px;
+    color: #202020;
+    margin-bottom: 30px;
+}
+.packages_educate_goi{
+    display: block;
+    text-align: center;
+    align-items: center;
+    color: #49544b;
+    margin-bottom: 30px;
+}
+.cont {
+    margin-left: 30px;
+    margin-right: 30px;
+}
+.packages_educate{
+    display: flex;
+    
+}
+.silver{
+    background-color: rgb(222, 212, 212);
+    width: 33.3%;
+    box-shadow:3px 3px 3px 3px rgb(247, 248, 249);
+    border-top: solid 5px rgb(146, 144, 144);
+    padding: 85px 0px;
+    margin-top: 25px;
+}
+.gold{
+    background-color: rgb(235, 215, 215);
+    width: 33%;
+    padding: 85px 0px;
+    box-shadow:5px 3px 5px 3px aliceblue;
+    border-top: solid 5px rgb(210, 212, 62);
+}
+.royal{
+    background-color: rgb(232, 203, 203);
+    width: 33.3%;
+    padding: 85px 0px;
+    box-shadow:3px 5px 3px 5px aliceblue;
+    border-top: solid 5px rgb(145, 99, 205);
+    margin-top: 25px;
+}
+.lines {
+    border-bottom: solid 3px rgb(75, 76, 75);
+}
+
+
+.royal_name{
+    display: block;
+    text-align: center;
+    color: #8569d0;
+    font-size: 30px;
+}
+.royal_v{
+    display: block;
+    text-align: center;
+    color: #4d540c;
+    font-size: 30px;
+}
+.royal_b{
+    display: block;
+    text-align: center;
+    color: #4b4b49;
+    font-size: 30px;
+}
+.money{
+    font-size: 40px;
+    color: rgb(31, 30, 30);
+}
+.func {
+    font-size: 20px;
+    color: #49544b;
+}
+.royal_content {
+    display: block;
+    margin-bottom: 20px;
+}
+.royal_right{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.btn_buy{
+    width: 100%;
+    height: 40px;
+}
+.bac{
+    background-color: #22221f;
+}
+.vang{
+    background-color: #7e8a0f;
+}
+.roy{
+    background-color: #8569d0;
+}
+.bac:hover {
+    background-color: #49544b;
+}
+.vang:hover {
+    background-color: #eaea0f;
+}.roy:hover {
+    background-color: #5e11ec;
+}
+
+
+.footer {
+    background-image: url("https://golfgroup.com.vn/wp-content/uploads/2020/12/san-golf-long-thanh-1-1.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: cover;
+    padding: 70px 0px;
+    color: #fff;
+    text-align: center;
+    opacity: 0.8;
+    margin-top: 30px;
+}
+.footer .concact {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    font-size: 40px;
+}
+.thamgia{
+    font-size: 20px;
+    margin-bottom: 15px;
+    display: block;
+}
+.item_concact li{
+    display: inline-block;
+    padding: 10px 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 50%;
+    background-color: rgba(192, 192, 192, 0.3);
+    cursor: pointer;
+}
+.item_concact li a{
+    color: #fff;
+}
+.item_concact {
+    margin-top: 15px;
+}
+.concact_intro{
+    display: block;
+    margin-bottom: 20px;
+}
+.footer_banquyen{
+    padding: 20px 0;
+    text-align: center;
+    background-color: black;
+    color: #fff;
+}
+.item_concact li :hover {
+    transform: scale(1.4);
+    transition: 0.3s;
+}
+
+
+/* 
+js */
+.pak {
+    display: none;
+}
+.coach {
+    display: none;
+}
+.pak h3 {
+    display: block;
+}
+.pak_coach{
+    width: 100%;
+    display: flex;
+    text-align: center;
+}
+.coach_img{
+    margin-top: 30px;
+    width: 25%;
+    height: auto;
+}
+.coach_name{
+    display: block;
+    margin-top: 10px;
+    font-size: 30px;
+}
+.coach_job{
+    color: #7e8a0f;
+}
+.coach_img li {
+    margin-top: 20px;
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #7e8a0f;
+    font-size: 20px;
+    color: #fff;
+}
+.coach_img img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+.educate_cont {
+    display: block;
+}
+.academykey {
+    display: none;
+}
+.academy {
+    display: flex;
+    color: #333;
+}   
+.academy_img {
+    width: 50%;
+}
+.academy_img img {
+    width: 600px;
+    height: 400px;
+}
+.academy_content {
+    display: block;
+    width: 50%;
+    text-align: left;
+    margin-left: 40px;
+}
+.academy_content h2 {
+    display: block;
+    font-size: 40px;
+}
+.academy_content span{
+    display: block;
+    margin-top: 20px;
+}
+/*  */
+.header_content {
+    /* display: none; */
+}
+.menu {
+    position: absolute;
+    bottom: 20%;
+    font-size: 30px;
+    color: #fff;
+    display: flex;
+}
+.heading_menu {
+    display: none;
+}
+/*nav  */
+.nav_none {
+    display: none;
+}
+.mona {
+    margin-top: 40px;
+    font-size: 20px;
+    margin-bottom: 40px;
+    display: block;
+    color: black;
+    background-color: #fff;
+    display: none;
+}
+.mona span {
+    font-size: 25px;
+    font-weight: 300;
+}
+.mona h6 {
+    display: block;
+    margin-bottom: 40px;
+    font-size: 40px;
+}
+
+/*  */
+.develope {
+    display: none;
+}
+.develope_content {
+    display: flex;
+    color: #333;
+}
+.develope_img{
+    width: 50%;
+    margin-left: 40px;
+}
+.develope_img img{
+    width: 95%;
+}
+.dev_content{
+    display: block;
+    width: 50%;
+    margin-right: 40px;
+}
+.dev_content h2 {
+    font-size: 40px;
+}
+.dev_content span{
+    display: block;
+    margin-top: 20px;
+    font-size: 20px;
+}
